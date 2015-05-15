@@ -3,9 +3,9 @@ using System.Windows.Input;
 
 namespace XFormsRPNCalculator
 {
-    class CalculatorCommand : ICommand
+    public class CalculatorCommand : ICommand
     {
-        private CalculatorViewModel _vm;
+        private readonly CalculatorViewModel _vm;
 
         public event EventHandler CanExecuteChanged;
 

@@ -67,7 +67,6 @@
         <Button Text="MR" Grid.Row="1" Grid.Column="2" Command="{Binding CalculatorCommand}" CommandParameter="MR" />
         <Button Text="M+" Grid.Row="1" Grid.Column="3" Command="{Binding CalculatorCommand}" CommandParameter="M+" />
 
-
         <Button Text="&lt;-" Grid.Row="2" Grid.Column="0" Command="{Binding CalculatorCommand}" CommandParameter="&lt;-" />
         <Button Text="±" Grid.Row="2" Grid.Column="1" Command="{Binding CalculatorCommand}" CommandParameter="±" />
         <Button Text="%" Grid.Row="2" Grid.Column="2" Command="{Binding CalculatorCommand}" CommandParameter="%" />

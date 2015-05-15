@@ -15,6 +15,7 @@ namespace XFormsRPNCalculator
             {
                 return _calc.Output;
             }
+
             set
             {
                 if (PropertyChanged != null)

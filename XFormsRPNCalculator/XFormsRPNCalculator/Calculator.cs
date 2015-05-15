@@ -230,7 +230,6 @@ namespace XFormsRPNCalculator
             _xreg = 0.0;
             _isNew = true;
             _output = StringifyXRegister();
-
         }
 
         private string StringifyValue(double value)

@@ -12,7 +12,9 @@ namespace XFormsRPNCalculator
             this.SizeChanged += (s, e) =>
             {
                 if (this.Width != this.Height)
+                {
                     ShowExtraButtons(this.Width > this.Height);
+                }
             };
         }
 
