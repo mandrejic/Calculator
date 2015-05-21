@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Runtime.Serialization.Json;
 using System.Text;
 
@@ -23,7 +21,7 @@ namespace XFormsRPNCalculator
         {
             if (Application.Current.Properties.ContainsKey(_key))
             {
-                string state = (string)Application.Current.Properties[_key];
+                var state = (string)Application.Current.Properties[_key];
                 _cvm.SetState(Deserialize<CalculatorState>(state));
             }
         }

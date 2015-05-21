@@ -21,8 +21,6 @@ namespace XFormsRPNCalculator
 
         private double? _accumulator = null;
 
-        private string _history = string.Empty;
-
         private string _operator = string.Empty;
 
         private bool _isMemoryRecalled = false;
@@ -32,14 +30,6 @@ namespace XFormsRPNCalculator
             get
             {
                 return _output;
-            }
-        }
-
-        public string History
-        {
-            get
-            {
-                return string.Empty;
             }
         }
 
